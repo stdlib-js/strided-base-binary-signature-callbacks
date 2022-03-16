@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-binary-signature-callbacks",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Assign callbacks to binary interfaces according to type promotion rules.",
   "license": "Apache-2.0",
   "author": {
