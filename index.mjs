@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import e from"https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-dtype-resolve-str@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-wrap-function@esm/index.mjs";var i=e,n=s,m="complex64",o="complex128",d={complex64:t,complex128:r};function l(e,t,r,s){if(s===m||s===o)return t===r&&r===s?e[s]:n(e[s],2,d[s]);if("generic"===s){if(t===o||r===o)return t===r?e[t]:n(e[o],2,d[o]);if(t===m||r===m)return t===r?e[t]:n(e[m],2,d[m])}return e.default}var p=function(e,t){var r,s,n,m,o;for(r=[],o=0;o<t.length;o+=3)s=i(t[o]),n=i(t[o+1]),m=i(t[o+2]),r.push(l(e,s,n,m));return r};export{p as default};
-//# sourceMappingURL=index.mjs.map
