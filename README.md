@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@deno/mod.js';
+import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@v0.2.0-deno/mod.js';
 ```
 
 #### callbacks( table, signatures )
@@ -130,7 +130,7 @@ import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binar
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@deno/mod.js';
 import cadd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-cadd@deno/mod.js';
 import caddf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-caddf@deno/mod.js';
-import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@deno/mod.js';
+import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@v0.2.0-deno/mod.js';
 
 // Get the list of supported strided array data types:
 var dt = dtypes();
