@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-binary-signature-callbacks/tags). For example,
+
+```javascript
 import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@v0.2.1-esm/index.mjs';
 ```
 
@@ -135,7 +140,7 @@ import signatures from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binar
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@esm/index.mjs';
 import cadd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-cadd@esm/index.mjs';
 import caddf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-caddf@esm/index.mjs';
-import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@v0.2.1-esm/index.mjs';
+import callbacks from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-binary-signature-callbacks@esm/index.mjs';
 
 // Get the list of supported strided array data types:
 var dt = dtypes();
